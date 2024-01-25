@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>MoVi</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="container">
+        <div class="flex-box nav-container">
+          <div class="logo-container">
+            <a href="index.html"
+              ><img src="./../resources/moviLogo.svg" alt="website logo"
+            /></a>
+          </div>
+          <div class="search-bar__container">
+            <input
+              class="search-bar"
+              type="search"
+              placeholder="Search movie"
+            />
+            <a href="#">
+              <img
+                src="./../resources/searchIcon.svg"
+                alt="search icon"
+                class="search-icon"
+              />
+            </a>
+          </div>
+          <ul class="nav-links flex-box">
+            <li class="nav-link flex-box">
+              <a href="movieDetails/index.html">Favourites</a>
+              <i class="fa-regular fa-heart"></i>
+            </li>
+            <li class="nav-link flex-box">
+              <a href="#">Watchlist</a>
+              <i class="fa-regular fa-bookmark"></i>
+            </li>
+            <li class="nav-link flex-box">
+              <a href="#">All movies</a>
+              <i class="fa-solid fa-angles-right"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="slider_container">
+          <div class="slider_box">
+            <div class="slider_info--box">
+              <h1 class="slider_title">Jack The Giant Slayer</h1>
+              <p class="slider_paragraph">
+                With the race against time to develop something so powerful as
+                to bring an end to the attacks the receive from neighbouring
+                countries. The nuclear bomb idea was brought about the great the
+                minds ... defu
+              </p>
+            </div>
+            <div class="slider_control--box flex-box">
+              <div class="left_arrow">&larr;<img src="../resources/arrow_left.svg" alt="left_arrow"></div>
+              <div class="nav_dots"><button class="buttons__button"></button> <button class="buttons__button"></button> <button class="buttons__button"></button></div>
+              <div class="right_arrow">&rarr;<img src="../resources/arrow_right.svg" alt="right arrow"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-movies">
+        <div class="container">
+          <div class="movies-tray">
+            <h2 class="section-title">Recent movies</h2>
+            <div class="movies-card__container">
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/titanic.jpg" alt="titanic image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Titanic</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/theAmazingSpiderMan.jpg" alt="amazing-spider image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">The Amazing Spider Man</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/avata.jpg" alt="avata Image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Avata</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/roboFriend.jpg" alt="avata Image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Robo Friend</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-more__movies">See more <img src="../resources/arrow_next.svg" alt="next arrow"></button>
+          </div>
+  
+          <div class="movies-section">
+            <h2 class="section-title">Top rated</h2>
+            <div class="movies-card__container">
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/alone.jpg" alt="alone image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Alone</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/spiderVerse.jpg" alt="spider verse image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Spider Verse</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/theStar.jpg" alt="the star Image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">The Star</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/batman_vengence.jpg" alt="batman Image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Batman: Vengence</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-more__movies">See more <img src="../resources/arrow_next.svg" alt="next arrow"></button>
+          </div>
+  
+          <div class="movies-section">
+            <h2 class="section-title">Top downloaded</h2>
+            <div class="movies-card__container">
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/roboFriend.jpg" alt="robo friend image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Robo Friend</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/avata.jpg" alt="avata image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Avata</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/theStar.jpg" alt="the star Image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">The Star</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="movies-card">
+                <div class="movie-card__image--container">
+                  <img src="../resources/titanic.jpg" alt="titanic Image">
+                </div>
+                <div class="movie-info">
+                  <h3 class="movie-title">Titanic</h3>
+                  <div class="interaction-tray flex-box">
+                    <div class="rating-box">
+                      <img class="rating" src="../resources/stars_ratings.svg" alt="rating image"> <span>6.2</span>
+                    </div>
+                    <div class="button-tray flex-box">
+                      <i class="card-icon fa-regular fa-heart"></i>
+                      <div class="vertical-bar"></div>
+                      <i class="card-icon fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-more__movies">See more <img src="../resources/arrow_next.svg" alt="next arrow"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-logo__container">
+          <img src="../resources/moviLogo.svg" alt="movi logo" class="loger">
+          <p class="slogan">First in movies and entertainment</p>
+        </div>
+        <p class="copyright"><em>All rights reserved © copyright MoVi 2024</em></p>
+      </div>
+    </footer>
+  </body>
+</html>

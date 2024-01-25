@@ -1,0 +1,49 @@
+.slider_container {
+  /* background-color: aqua; */
+  background-image: url(../resources/jackTheGiantSlayer.jpg);
+  background-size: cover;
+  background-position: 10%;
+  border-radius: 30px;
+  height: 60vh;
+  position: relative;
+}
+
+.slider_box {
+  position: absolute;
+  padding: 4rem;
+  bottom: 0;
+  left: 0;
+}
+
+.slider_control--box {
+  margin-block-start: 20px;
+}
+
+.slider_info--box {
+  width: 70%;
+}
+
+.btn-more__movies {
+  background-color: var(--color-gray);
+  color: var(--color-off__white);
+  padding: 10px 20px;
+  text-align: left;
+  margin-block: 30px;
+}
+
+/* ------------------------------- */
+/* Footer */
+/* ------------------------------- */
+
+.footer-logo__container {
+  margin-block: 60px;
+}
+
+.slogan {
+  margin-block: 10px;
+}
+
+.copyright {
+  margin-block-end: 30px;
+  font-size: 12px;
+}
